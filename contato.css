@@ -86,17 +86,6 @@ outline: none;
     border: none;
     text-decoration: none;
 }
-.menu{
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    margin-right: 50px;
-    column-gap: 40px;
-}
-#imagemajuste{
-    width: 100px;
-    height: 100px;
-}
+
 
 
