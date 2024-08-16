@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+a{
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    background-color: rgb(238, 236, 236);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.container-logo{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin-left: 50px;
+    
+}
+
+.container-logo li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.container-logo li a {
+font-size: 18px;
+
+color: black;
+
+}
+.menu{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 50px;
+    column-gap: 40px;
+}
+#imagemajuste{
+    width: 100px;
+    height: 100px;
+}
+#entrarheader{
+    width: 70px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: brown;
+    justify-content: center;
+    color: white;
+    border: 1px solid rgb(126, 17, 17);
+    font-size: 18px;
+    border-radius: 3px;
+}
+
+#colorajuste{
+    color: brown;
+    font-size: 18px;
+}
+main{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70vh;
+    
+
+}
+h3{
+    margin-top: 10px;
+    justify-content: center;
+    font-size: 15px;
+    
+
+}
+h1{
+    justify-content: center;
+    font-size: 40px;
+    color: rgb(61, 63, 63);
+ 
+}
+.quadrado{
+    margin-top: 10px;
+    width: 20%;
+    background-color: rgb(233, 233, 233);
+
+}
+.button{
+    margin-top: 20px;
+    width: 12%;
+    background-color: rgb(196, 196, 196);
+    font-size: 15px;
+    color: black;
+    justify-content: center;
+   display: flex;
+   align-items: center;
+   
+}
+a {
+    color: black;
+}
+
+.input_{
+    outline: none;
+    border: none;
+    
+}
+footer{
+    display: flex;
+    width: 100%;
+    height: 30vh;
+    background-color: white;
+    align-items: center;
+
+}
+footer>div{
+    width:30%;
+    display: flex;
+    justify-content: space-around;
+}
+.footer_a{
+    font-weight: lighter;
+
+}
+.footerleft{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 20vh;  
+  margin-left: 20px;
+
+}
+.footermiddle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 20vh;
+    width: 20%;   
+}
+.footerright{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 20vh;
+    width: 20%;
+}
+
+.redes{
+    display: flex;
+column-gap: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
